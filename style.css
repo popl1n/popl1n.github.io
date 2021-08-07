@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    background-image: url("bg.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8EEE2;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    
+  }
+  
+  .topnav a.link {
+    float: left;
+    color: #31302E;
+    transition: text-decoration 1s ease;
+    text-align: center;
+    font-weight: 600;
+    padding: 28px 90px;
+    text-decoration: underline solid transparent;
+    font-size: 24px;
+  }
+  
+  .topnav a:hover {
+    color: black;
+    text-decoration: underline solid currentColor;
+  }
+  
+  .topnav a.active {
+    float: left;
+    text-align: center;
+    padding: 28px 90px;
+    font-size: 24px;
+    background-color: #F8EEE2;
+    color: #8A8D56;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .topnav h1.websitetitle {
+    float: left;
+    color: #31302E;
+    text-align: center;
+    font-weight: 800;
+    padding: 0px 16px;
+    padding: 0px 174px 0px 61px;
+    text-decoration: none;
+    font-size: 32px;
+  }
+
+  .welcome {
+      font-size: 96px;
+  }
+
+  h2 {
+      font-size: 36px;
+      padding-left: 66px;
+      margin: 0;
+  }
+
+  .welcome{
+      padding-left: 66px;
+      margin: 0;
+      margin-top: 5.36%;
+  }
